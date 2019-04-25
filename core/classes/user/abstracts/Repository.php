@@ -2,7 +2,7 @@
 
 namespace Core\User\Abstracts;
 
-abstract class Repository extends \Core\User\Model {
+abstract class Repository {
 
     const REGISTER_SUCCESS = 1;
     const REGISTER_ERR_EXISTS = -1;
