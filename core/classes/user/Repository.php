@@ -2,7 +2,7 @@
 
 namespace Core\User;
 
-class Repository {
+class Repository extends \Core\User\Abstracts\Repository {
 
     protected $model;
 
